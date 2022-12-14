@@ -12,9 +12,99 @@ html {
 }
 
 body {
-  background-color: gray;
+  background-color: white;
 /* Use a system font, if none are available use an available sans-sarif   font */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   margin: 0;
+  font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: bold;
+}
+nav {
+  background-color: #fff;
+  justify-content: space-between;
+  display: flex;
+  height: 80px;
+  padding: 0 16px;
+}
+
+#top-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+#destinations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+input {
+  height: 58px;
+  width: 600px;
+  border-radius: 100px;
+  border: 0px;
+  padding: 0 24px;
+  border: 1px solid rgba(0, 0, 0, .3);
+  
+}
+#destinations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px
+}
+#recommended {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px
+}
+#actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px
+}
+#destinations > p {
+
+  color:  black;
+  border-radius: 50px;
+  padding: 6px 15px;
+  border-radius: 30px;
+}
+#recommended > p {
+  color:  black;
+  border-radius: 50px;
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+#actions > p {
+  color:  black;
+  border-radius: 50px;
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 72px 32px;
+  gap: 32px;
+}
+.img-placeholder {
+  width: 355px;
+  height: 270px;
+  background-color: grey;
+  border-radius: 8px;
+}
+.card-footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.card-footer > * {
+  margin: 8px 0 0;
 }
